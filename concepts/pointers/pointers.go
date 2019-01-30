@@ -15,7 +15,7 @@ func main() {
 
 	i++ // incrementing the value from variable
 
-	//*p and i has the same value, because *p is the point to i variable value
+	//*p and i has the same value, because *p is the pointer to i variable value
 	// p has the reference of i, so p is equal to &i (& operator in this case return the reference of i (variable))
 	fmt.Printf("p: %v\n&i: %v\n*p: %d\ni: %d", p, &i, *p, i)
 }
